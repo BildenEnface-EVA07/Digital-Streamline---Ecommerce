@@ -1,0 +1,114 @@
+body {
+  display: flex;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  width: 220px;
+  background: #222;
+  color: #fff;
+  height: 100vh;
+  padding-top: 1rem;
+}
+
+.sidebar a {
+  display: block;
+  padding: 10px 20px;
+  color: #ccc;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  background: #444;
+  color: #fff;
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+  background: #f4f6f9;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.btn {
+  padding: 6px 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 14px;
+  background: #ccc;
+  color: #000;
+  margin-right: 5px;
+}
+
+.btn-add {
+  background: green;
+  color: #fff;
+}
+
+.btn-edit {
+  background: orange;
+  color: #fff;
+}
+
+.btn-delete {
+  background: crimson;
+  color: #fff;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background: #eee;
+}
+
+.msg {
+  padding: 10px;
+  margin-bottom: 15px;
+  background: #dff0d8;
+  color: #3c763d;
+  border-radius: 4px;
+}
+
+.error {
+  padding: 10px;
+  margin-bottom: 15px;
+  background: #f2dede;
+  color: #a94442;
+  border-radius: 4px;
+}
+
+.form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 500px;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form input, 
+.form textarea,
+.form select {
+  width: 100%;
+  padding: 6px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
